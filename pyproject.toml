@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "whist-api"
+version = "0.1.0"
+description = ""
+authors = ["brmatthy <109791839+brmatthy@users.noreply.github.com>"]
+license = "LICENCE"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = {extras = ["standard"], version = "^0.112.3"}
+asyncio = "^3.4.3"
+pydantic = "^2.8.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
